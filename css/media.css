@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1024px) {
+    .container {
+        padding: 1.6rem 10rem;
+    }
+
+    header {
+      flex-wrap: wrap;
+    }
+
+    .header_top {
+        padding-bottom: 1rem;
+    }
+
+    .logo-name_wrapper {
+        margin-bottom: 5rem;
+    }
+
+    .signIn_signUp_buttons {
+        position: absolute;
+        top: 7rem;
+        right: 13.5rem;
+    }
+
+    .signIn_signUp_buttons .button_wrapper > button {
+        font-size: 2rem;
+    }
+
+    .nav_bar {
+        margin-right: 0;
+    }
+
+    .nav_bar li {
+        text-align: center;
+    }
+
+    .advertisement_block {
+        display: none;
+    }
+
+    .tools_bar {
+        flex-wrap: wrap;
+    }
+
+    .tools_bar li:not(:first-child) {
+        margin-left: .5rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+        padding: 1.6rem 6rem;
+    }
+
+    .header_info .working_hours > span:nth-child(1) {
+        margin-right: 2rem;
+    }
+
+    .header_info .phone_number {
+        font-size: 1.5rem;
+    }
+
+    .tools_bar_wrapper .tools_bar {
+        padding: 0 2rem;
+    }
+
+    .tools_bar_wrapper .tools_bar li button {
+        padding: .6rem 0;
+    }
+  }
+
+  @media only screen and (max-width: 426px) {
+    .container {
+        padding: 1.6rem 2rem;
+    }
+
+    .signIn_signUp_buttons {
+        position: relative;
+        right: 0;
+    }
+
+    .nav_bar {
+        flex-direction: column;
+    }
+
+    .nav_bar li {
+        text-align: left;
+    }
+
+    .nav_bar li a {
+        text-decoration: underline;
+    }
+
+    .signIn_signUp_buttons {
+        position: absolute;
+        right: 2rem;
+        top: 1.6rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .header_top .signIn_signUp_buttons .button_wrapper {
+        padding: 0;
+        border: 0;
+    }
+
+    .signIn_signUp_buttons .button_wrapper > button {
+        font-size: 1.4rem;
+    }
+
+    .header_main {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_info {
+        margin: 0;
+    }
+
+    .items_links {
+        display: flex;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .header_main .items_links > div {
+        margin: 0;
+        align-items: center;
+    }
+
+    .header_main .items_links > div > div:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    .items_links > div .link_wrapper {
+        margin-left: .8rem;
+    }
+
+    .items_links > div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .items_links > div .link_wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    .signIn_signUp_buttons .button_wrapper:nth-child(1) {
+        margin-bottom: .4rem;
+    }
+
+    .drills_list {
+        margin-bottom: 3rem;
+    }
+
+    .header_info {
+        width: 100%;
+    }
+
+    .tools_bar_wrapper {
+        flex-direction: column;
+    }
+
+    .tools_bar_wrapper .search_button {
+        border-radius: 0;
+        border-top-left-radius: .9rem;
+        border-top-right-radius: .9rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tools_bar_wrapper .tools_bar {
+        padding: 1rem 0;
+    }
+
+    .tools_bar_wrapper .search_button,
+    .tools_bar_wrapper .sale_button {
+        padding: .5rem 0;
+    }
+
+    .tools_bar_wrapper .sale_button {
+        border-radius: 0;
+        border-bottom-left-radius: .9rem;
+        border-bottom-right-radius: .9rem;
+    }
+
+    .tools_bar_wrapper .tools_bar {
+        flex-direction: column;
+    }
+
+    .tools_bar_wrapper .tools_bar li {
+        margin: 0
+    }
+
+    @media only screen and (max-width: 375px) {
+        .logo-name_wrapper {
+            margin-right: 0;
+            width: 100%;
+        }
+
+        .signIn_signUp_buttons {
+            display: none;
+        }
+
+        .logo-name_wrapper .logo {
+            margin: 0 auto 1rem auto;
+        }
+    }
+  }

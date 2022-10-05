@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem 13.5rem 8.7rem 13.5rem;
+    flex-direction: column;
+}
+
+.container li {
+    list-style: none;
+}
+
+header,
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar {
+    margin-right: 3rem;
+}
+
+.logo-name_wrapper .logo {
+    width: 21rem;
+    height: 11.1rem;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .8rem;
+}
+
+.logo-name_wrapper .name {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+.logo-name_wrapper {
+    width: 21rem;
+    height: 11.1rem;
+    background-color: #ffcc00;
+    margin-right: 2.9rem;
+}
+
+.items_links .icon_wrapper {
+    width: 20%;
+    text-align: center;
+}
+
+.items_links .link_wrapper {
+    width: 80%;
+}
+
+.header_top {
+    display: flex;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 1.6rem;
+}
+
+.signIn_signUp_buttons > div > button {
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.signIn_signUp_buttons > div:not(:first-child) {
+    border-left: 2px solid #000;
+    padding-left: 2rem;
+}
+
+.signIn_signUp_buttons > div:not(:last-child) {
+    padding-right: 2rem;
+}
+
+header,
+.header_content,
+.header_top {
+    width: 100%;
+}
+
+header {
+    margin-bottom: 2.6rem;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info {
+    margin-left: auto;
+}
+
+.header_info .working_hours {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_info .working_hours,
+.header_info .location_wrapper {
+    font-size: 1.2rem;
+}
+
+.header_info .working_hours > span:first-child {
+    font-weight: 700;
+}
+
+.header_info .phone_number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: .4rem;
+    padding-bottom: .9rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.signIn_signUp_buttons {
+    margin: 0 0 .8rem auto;
+}
+
+.advertisement_block {
+    height: 7rem;
+    flex-grow: 3;
+    background-color: #e2e2e2;
+    margin-right: 3rem;
+}
+
+.items_links,
+.drills_wrapper {
+    flex-grow: 1;
+}
+
+.items_links > div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.items_links > div:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.items_links > div .link_wrapper {
+    margin-left: 1.1rem;
+}
+
+.items_links > div > img {
+    margin-right: 1.1rem;
+}
+
+.items_links > div > .icon_wrapper > img {
+    vertical-align: middle;
+}
+
+.items_links > div .link_wrapper > a {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.drills_list,
+.signIn_signUp_buttons {
+    display: flex;
+}
+
+.location_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location_wrapper > button {
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+    text-decoration: dotted;
+    border-bottom: 1px dotted #111;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.location_wrapper > button::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3.25px 0 3.25px 6.5px;
+    border-color: transparent transparent transparent #111;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.drills_list li img {
+    vertical-align: middle;
+}
+
+.drills_list li:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.nav_bar {
+    width: 100%;
+}
+
+.nav_bar li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #111;
+}
+
+.nav_bar li {
+    flex-grow: 1;
+}
+
+.tools_bar_wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.tools_bar_wrapper .tools_bar {
+    display: flex;
+    padding: 0 4rem;
+    width: 100%;
+    background-color: #111;
+}
+
+.tools_bar_wrapper .tools_bar li {
+    flex-grow: 1;
+    list-style: none;
+    cursor: pointer;
+}
+
+.tools_bar_wrapper .tools_bar li button {
+    background-color: #111;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    width: 100%;
+    padding: .9rem 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.tools_bar_wrapper .tools_bar li button:hover {
+    background-color: #ffcc00;
+    color: #111;
+    transition: .2s;
+}
+
+.tools_bar_wrapper .tools_bar li .active {
+    background-color: #ffcc00;
+    color: #111;
+}
+
+.tools_bar_wrapper .search_button {
+    padding: 0 1rem;
+    background-color: #ffcc00;
+    border: 0;
+    border-top-left-radius: .9rem;
+    border-bottom-left-radius: .9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tools_bar_wrapper .sale_button {
+    text-transform: uppercase;
+    background-color: #ffcc00;
+    border: 0;
+    border-top-right-radius: .9rem;
+    border-bottom-right-radius: .9rem;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
