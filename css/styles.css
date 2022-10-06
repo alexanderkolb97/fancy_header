@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Helios Cond Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Helios Cond Light'), local('Helios-Cond-Light-Regular'),
+        url(http://allfont.ru/cache/fonts/helios-cond-light_ef03d394daa5e68663784aed6c42655a.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/helios-cond-light_ef03d394daa5e68663784aed6c42655a.ttf) format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
